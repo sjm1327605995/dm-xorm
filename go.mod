@@ -1,4 +1,4 @@
-module dm-xorm
+module github.com/sjm1327605995/dm-xorm
 
 go 1.17
 
