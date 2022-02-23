@@ -546,10 +546,8 @@ func (db *dm) IsReserved(name string) bool {
 	return ok
 }
 
-//这是给反射的字段添加前后前缀，这里的""不能删除，删除后。
-//session.insert会判断前缀长度。不添加会导致默认添加 符号"`"
 func (db *dm) Quote(name string) string {
-	return "" + name + ""
+	return "\"" + name + "\""
 }
 
 func (db *dm) SupportEngine() bool {
