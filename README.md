@@ -21,7 +21,7 @@ type Person struct {
 
 func main() {
 	
-	Engine, err := xorm.NewEngine("dm", "dm://SYSDBA:Dameng2021bg@119.96.178.132:10236")
+	Engine, err := xorm.NewEngine("dm", "dm://SYSDBA:PASSWORD@IP:PORT")
 	if err!=nil{
 		fmt.Println(err)
 		return
