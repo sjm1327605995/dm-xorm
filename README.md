@@ -7,7 +7,7 @@ package main
 
 import (
 	"fmt"
-	_ "gitee.com/chunanyong/dm" // google's odbc driver
+	_ "gitee.com/chunanyong/dm" 
 	"github.com/go-xorm/xorm"
 	_ "github.com/sjm1327605995/dm-xorm"
 	"xorm.io/core"
